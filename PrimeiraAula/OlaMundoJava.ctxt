@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=OlaMundoJava
+comment0.text=SEGUIR\ EXPLICA\u00C7\u00D5ES\ E\ EXEMPLOS\ ABAIXO*******\r\n\ float\ >>>\ double\r\n\ char\ >>>\ char(um\ caracter\ apenas)\ e\ String\ (usado\ como\ char\ em\ C)\ \r\n\ int\ >>>\ int\r\n\ boolean\ >>>\ true\ or\ false\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

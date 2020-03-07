@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CalculoCombustivel
+comment0.text=\r\n\ \ \ Valor\ Gasolina\ *\ 0,7\r\n\ \ \ se\ menor\ que\ o\ Valor\ Alcool\r\n\ \ \ \ \ \ \ \ Gasolina\ \u00E9\ melhor\r\n\ \ \ se\ n\u00E3o,\ \r\n\ \ \ \ \ \ \ \ Alcool\ \u00E9\ melhor\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
