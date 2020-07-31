@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=folhaPagamento
+comment1.params=nome\ horasTrabalhadas\ numDependentes\ salarioHora
+comment1.target=folhaPagamento(java.lang.String,\ double,\ int,\ int)
+comment2.params=
+comment2.target=double\ calculoBruto()
+comment3.params=
+comment3.target=double\ calculoINSS()
+comment4.params=
+comment4.target=double\ calculoIR()
+numComments=5
