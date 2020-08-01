@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=conversorCambio
+comment1.params=real
+comment1.target=conversorCambio(double)
+comment2.params=
+comment2.target=double\ converterDolar()
+comment3.params=
+comment3.target=double\ converterEuro()
+comment4.params=
+comment4.target=double\ converterLibra()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
