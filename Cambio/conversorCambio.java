@@ -24,9 +24,9 @@ public class ConversorCambio{
         System.out.println("R$1 para Libra: "+cambio1.converterLibra());
         
         conversorCambio cambio2 = new conversorCambio(2);
-        System.out.println("R$2 para Dolar: "+cambio1.converterDolar());
-        System.out.println("R$2 para Euro: "+cambio1.converterEuro());
-        System.out.println("R$2 para Libra: "+cambio1.converterLibra());
+        System.out.println("R$2 para Dolar: "+cambio2.converterDolar());
+        System.out.println("R$2 para Euro: "+cambio2.converterEuro());
+        System.out.println("R$2 para Libra: "+cambio2.converterLibra());
     }
 }
 
