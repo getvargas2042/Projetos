@@ -107,14 +107,14 @@ public ControleAuxilio(){
   }
   // Checar se é chefe de familia;
   public boolean chefeFamilia(){
-    if(chefeFamilia == "Sim"){
+    if(this.chefeFamilia == "Sim"){
       return true;
     }
       return false;
   }
   //Checar se renda familiar é maior que 3135, se for não receberá o Auxilio Emergencial;
   public boolean renda(){
-    if(renda <= 3135){
+    if(this.renda <= 3135){
       return true;
     }
       return false; 
@@ -126,21 +126,21 @@ public ControleAuxilio(){
   **/
   //Checa se o Beneficiario é Adulto, se for retorna 'true' senão retorna 'false';
   public boolean adulto(){
-    if(idade >= 18){
+    if(this.idade >= 18){
       return true;
     }
       return false;
   }
   //Checa se o sexo do Beneficiario é 'Feminino', se for retorna 'true' senão retorna 'false';
   public boolean mulher(){
-    if(sexo == "F"){
+    if(this.sexo == "F"){
       return true;
     }
       return false;
   }
   // Checar se o Beneficiario é ou não trabalhador Informal;
   public boolean informal(){
-    if(ramoAtividade == "Informal"){
+    if(this.ramoAtividade == "Informal"){
       return true;
     }
       return false;
@@ -165,18 +165,15 @@ public ControleAuxilio(){
   }
   // Checa se a pessoa(beneficiario) é mulher e chefe de familia, caso sejam true (verdadeiro) recebe R$ 1200,00
   // Se não for nenhuma dessas duas condições, então receberá apenas R$600,00;
-  public double valorReceber(){
-    if (mulher() == true && chefeFamilia == "Sim"){
-      return valorReceber + 600;
-    }
-      return valorReceber;
-  }
   public double saldoGoverno(){
-    if(receberAuxilio()){
-      return saldoGoverno - valorReceber;
+    if(saldoGoverno >= 600){  
+      if(receberAuxilio()){
+        return this.saldoGoverno - this.valorReceber;
+      }
+        return this.saldoGoverno;
     }
-    return saldoGoverno;
-  }   
+    return this.saldoGoverno;
+  }  
 }
 
 
