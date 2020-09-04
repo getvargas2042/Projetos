@@ -13,12 +13,12 @@ public class ValidarCPF{
     ValidarCPF cpf = new ValidarCPF();
     //exemplo valido "529.982.247-25"
     //exemplo invalda "777.777.777-77"
-    cpf.n1 = 5; cpf.n7 = 2;
-    cpf.n2 = 2; cpf.n8 = 4;
-    cpf.n3 = 9; cpf.n9 = 7;
-    cpf.n4 = 9; cpf.n10 = 2;
-    cpf.n5 = 8; cpf.n11 = 5;
-    cpf.n6 = 2;
+    cpf.n1 = 2; cpf.n7 = 3;
+    cpf.n2 = 0; cpf.n8 = 0;
+    cpf.n3 = 4; cpf.n9 = 8;
+    cpf.n4 = 1; cpf.n10 = 0;
+    cpf.n5 = 7; cpf.n11 = 3;
+    cpf.n6 = 5;
     
     cpf.soma1 = (cpf.n1*10)+(cpf.n2*9)+(cpf.n3*8)+(cpf.n4*7)+(cpf.n5*6)+(cpf.n6*5)+(cpf.n7*4)+(cpf.n8*3)+(cpf.n9*2);
     System.out.println("Resultado Soma1: " +cpf.soma1);
